@@ -1,11 +1,5 @@
 #! /usr/bin/env node
 
-// const path = require('path');
-// const chalk = require('chalk');
-// const { readFileAsync, writeFileAsync } = require('./helpers/fs-async');
-// const translate = require('./translate');
-// const log = require('./helpers/log');
-
 const { args } = require('./helpers/args');
 const { parseInputFile } = require('./helpers/parseInputFile');
 const { translateAll } = require('./helpers/translate');
