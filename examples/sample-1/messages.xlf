@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<xliff version='1.2' xmlns='urn:oasis:names:tc:xliff:document:1.2'>
+  <file source-language='it' datatype='plaintext' original='ng2.template'>
+    <body>
+      <trans-unit id='8230350809485058915' datatype='html'>
+        <source>Dashboard | La Porta D&apos;Acqua</source>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/app/admin/dashboard/admin-dashboard.component.ts</context>
+          <context context-type='linenumber'>13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id='7532968965335544251' datatype='html'>
+        <source>Allergeni</source>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/menu/allergens/admin-allergens-home/admin-allergens-home.component.html 
+          </context>
+          <context context-type='linenumber'>2</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/core/components/admin-sidenav/admin-sidenav.component.html</context>
+          <context context-type='linenumber'>87</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/core/components/menu-dashboard/dish-allergens/dish-allergens.component.html</context>
+          <context context-type='linenumber'>2</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/core/components/public-dish-modal/public-menu-show-allergens/public-menu-show-allergens.component.html 
+          </context>
+          <context context-type='linenumber'>1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id='426799990153494703' datatype='html'>
+        <source>Filtra allergeni</source>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/menu/allergens/admin-allergens-home/admin-allergens-home.component.html 
+          </context>
+          <context context-type='linenumber'>8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id='6959786605294476452' datatype='html'>
+        <source>Nuovo</source>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/menu/allergens/admin-allergens-home/admin-allergens-home.component.html 
+          </context>
+          <context context-type='linenumber'>20</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/menu/ingredients/admin-ingredients-home/admin-ingredients-home.component.html 
+          </context>
+          <context context-type='linenumber'>20</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/app/admin/menu/tags/admin-tags-home/admin-tags-home.component.html</context>
+          <context context-type='linenumber'>20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id='2332180001770133395' datatype='html'>
+        <source>Nome</source>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/menu/allergens/admin-allergens-home/admin-allergens-home.component.html 
+          </context>
+          <context context-type='linenumber'>26</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/menu/ingredients/admin-ingredients-home/admin-ingredients-home.component.html 
+          </context>
+          <context context-type='linenumber'>26</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/app/admin/menu/tags/admin-tags-home/admin-tags-home.component.html</context>
+          <context context-type='linenumber'>26</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/app/admin/reservations/admin-reservations-home/admin-reservations-home.component.html 
+          </context>
+          <context context-type='linenumber'>11</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/app/admin/settings/users/list-users/list-users.component.html</context>
+          <context context-type='linenumber'>6</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/core/components/menu-dashboard/create-category/create-category.component.html 
+          </context>
+          <context context-type='linenumber'>22</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/core/components/name-desc-eip/edit-name-desc-modal/edit-name-desc-modal.component.html 
+          </context>
+          <context context-type='linenumber'>4</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>src/core/components/name-desc-eip/name-desc-eip.component.html</context>
+          <context context-type='linenumber'>9</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/core/components/public-reservation-form/public-reservation-form.component.html 
+          </context>
+          <context context-type='linenumber'>73</context>
+        </context-group>
+        <context-group purpose='location'>
+          <context context-type='sourcefile'>
+            
+            src/core/components/reservations-creation/admin-reservation-form/admin-reservation-form.component.html 
+          </context>
+          <context context-type='linenumber'>40</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

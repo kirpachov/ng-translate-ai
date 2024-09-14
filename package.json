@@ -1,0 +1,31 @@
+{
+  "name": "ng-translate-ai",
+  "version": "0.0.1",
+  "description": "Translate xlf files using OpenAI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirpachov/ng-translate-ai.git"
+  },
+  "keywords": [
+    "angular",
+    "xlf",
+    "translate",
+    "openai",
+    "translate-ai",
+    "translateAI",
+    "angular2"
+  ],
+  "author": "Elia Coro, Oleksandr Kirpachov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirpachov/ng-translate-ai/issues"
+  },
+  "homepage": "https://github.com/kirpachov/ng-translate-ai#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
