@@ -1,17 +1,19 @@
 #! /usr/bin/env node
 
-const { args } = require('./helpers/args');
+const { config } = require('./helpers/args');
 const { parseInputFile } = require('./helpers/parseInputFile');
 const { translateAll } = require('./helpers/translate');
 const { writeOutputFile } = require('./helpers/writeOutputFile');
 
 // Once args are parsed, we have to read the source file and process it.
-const data = parseInputFile(args);
+const {template, data} = parseInputFile(config);
 
-// Now we have to use the context and the `data` to translate the strings.
-const translatedData = translateAll(data, args);
+config.targetLang.forEach((lang) => {
 
-// Now write translations to the target file.
-writeOutputFile(translatedData, args);
+    // Now we have to use the context and the `data` to translate the strings.
+    const translatedData = translateAll(data, config, lang);
 
-// console.log(args.argv);
+    // Now write translations to the target file.
+    writeOutputFile(translatedData, template, config, lang);
+
+});

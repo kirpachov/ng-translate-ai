@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/kirpachov/ng-translate-ai#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.5.0",
+    "openai": "^4.61.0",
     "yargs": "^17.7.2"
   }
 }
