@@ -35,8 +35,8 @@ const args = yargs.usage(`ng-translate-ai [options] \n Translates all the missin
         describe: `OpenAI model`,
         type: `string`,
     })
-    .option(`skip-present`, {
-        describe: `Skip present strings`,
+    .option(`cache`, {
+        describe: `Cache translated strings`,
         type: `boolean`,
         default: true
     })
@@ -115,6 +115,10 @@ const config = {
     verbose: args['verbose'] || configFromFile.verbose || defaultConfig.verbose,
     prompt: args['prompt'] || configFromFile.prompt || defaultConfig.prompt
 };
+
+
+if(config.target.length !== config.targetLang.length)
+    throw new Error(`Number of target files and target languages must be the same`);
 
 Object.keys(config).forEach(key => {
     if (config[key] === undefined || config[key] === null)
