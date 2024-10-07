@@ -1,0 +1,12 @@
+{
+  "source": "examples/sample-1/messages.xlf",
+  "target": ["tmp/src/locale/messages.en.xlf", "tmp/src/locale/messages.fr.xlf"],
+  "sourceLang": "en",
+  "targetLang": ["en","fr"],
+  "openaiApiKey": "key",
+  "openaiModel": "gpt-4o",
+  "cache": true,
+  "angularJson": "angular.json",
+  "verbose": false,
+  "prompt": "You are a great translator knowing many languages."
+}

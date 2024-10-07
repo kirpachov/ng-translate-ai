@@ -1,0 +1,12 @@
+{
+  "source": "src/locale/messages.xlf",
+  "target": null,
+  "sourceLang": null,
+  "targetLang": null,
+  "openaiApiKey": null,
+  "openaiModel": "gpt-4o",
+  "cache": true,
+  "angularJson": "angular.json",
+  "verbose": false,
+  "prompt": "You are a great translator knowing many languages."
+}

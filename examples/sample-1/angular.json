@@ -28,7 +28,7 @@
         "sourceLocale": "it",
         "locales": {
           "": {
-            "translation": "locales/messages.xlf"
+            "translation": "examples/sample-1/config.json"
           },
           "en": {
             "translation": "locales/messages.en.xlf",

@@ -35,4 +35,4 @@ function parseInputFile(config) {
     return { template, data };
 }
 
-module.exports = {parseInputFile};
+module.exports = { parseInputFile };
